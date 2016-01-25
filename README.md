@@ -8,7 +8,7 @@
 2. 사용기술
   - front-end : javascript es6, reactjs (flux architecture & alt library), jquery, html, css
   - back-end : nodejs, mongoDB
-  - server : express, nginx
+  - server : express, nginx ( webserver & imageserver )
   - OS : Amazon RMI (Centos6)
   - tools : npm, bower (의존성주입 툴) / sass,less (css 빌드 툴) / gulp, browserify ( front-end 빌드 툴)
   
@@ -36,8 +36,10 @@
         - 메모내용 DB에 저장
 
 4. 참고
+
   1) 디자인 
      - quickblox : http://quickblox.com/developers/Q-municate
+    
   2) reactjs
      - https://scotch.io/tutorials/learning-react-getting-started-and-concepts
      - http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/
