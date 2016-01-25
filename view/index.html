@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+	
+  <title>Q-municate</title>
+  <meta name="description" content="Q-municate - the open-source, cross platform video calling and instant messaging app from Quickblox">
+
+<!-- build:css styles/build.css -->
+  <link rel="stylesheet" href="https://vjs.zencdn.net/4.6/video-js.css">
+  <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/minEmoji.css">
+ 	
+
+</head>
+<body class="is-welcome">
+  <!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <div id="app" class="l-wrapper">
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>var socket = io();</script>
+  <script src="/js/common.js"></script>
+  <script src="/js/vendor.js"></script>
+  <script src="/js/vendor.bundle.js"></script>
+  <script src="/js/bundle.js"></script>
+
+</body>
