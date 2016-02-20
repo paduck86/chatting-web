@@ -1,6 +1,6 @@
 # chatting-web
 
-1. 데모URL : http://ec2-52-34-166-228.us-west-2.compute.amazonaws.com
+1. 데모URL : http://52.26.1.79
   - 테스트 브라우져 : chrome
   - 관리자계정 : admin@admin.com / admin
   - 일반유저: 회원가입후 사용가능
